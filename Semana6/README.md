@@ -24,16 +24,17 @@ Esto creará `tsconfig.json`, donde puedes modificar opciones como el directorio
 ## ¿Cómo se usa?
 1. Crea un archivo TypeScript, por ejemplo `index.ts`:
    ts
-   const saludo = (nombre: string): string => {
+
+   <code>const saludo = (nombre: string): string => {
        return `Hola, ${nombre}!`;
    };
-   console.log(saludo("Mundo"));
+   console.log(saludo("Mundo"));</code>
    
-2. Compila el archivo con:
+3. Compila el archivo con:
    tsc index.ts
    Esto generará un archivo `index.js`.
 
-3. Ejecuta el archivo compilado con:
+4. Ejecuta el archivo compilado con:
    node index.js
 
 
